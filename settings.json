@@ -1,0 +1,45 @@
+{
+	"window.zoomLevel": 0,
+	"sublimeTextKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.snippetSuggestions": "top",
+	"editor.formatOnPaste": true,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.lineHeight": 21,
+	"files.trimTrailingWhitespace": true,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"workbench.startupEditor": "newUntitledFile",
+	"files.associations": {
+		"*.tpl": "php"
+	},
+	"extensions.ignoreRecommendations": true,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	"php.suggest.basic": false,
+	"php-docblocker.extra": [
+		[
+			"@author Gabriel Stringari <gabriel.stringari@grupoezoom.com.br>"
+		]
+	],
+	"php-docblocker.gap": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Sublime Material Theme - Dark",
+	// Path of files that need parse. That is just for addition const support.
+	"CI.other": [
+		"codeigniter/core/Common.php"
+	],
+	// Path of CI's system folder.
+	"CI.system": "codeigniter",
+	"gulp.autoDetect": "on",
+	"auto-rename-tag.activationOnLanguage": [
+		"*"
+	],
+	"php.executablePath": "C:\\xampp\\php7\\php.exe",
+	"php.validate.executablePath": "C:\\xampp\\php7\\php.exe",
+	"php.validate.run": "onSave",
+}

@@ -1,0 +1,106 @@
+{
+	// PHP Blocks
+	"PHP Block Tags": {
+		"prefix": "php",
+		"body": [
+			"<?php $0 ?>"
+		],
+		"description": "Expand PHP into block tags"
+	},
+	// PHP Echo
+	"ECHO": {
+		"prefix": "echo",
+		"body": [
+			"<?php echo $1 ?>"
+		],
+		"description": "Expand echo into ECHO tag"
+	},
+	// IF Conditional
+	"IF Conditional": {
+		"prefix": "if",
+		"body": [
+			"<?php if (${1:expr}) { ?>",
+			"$0",
+			"<?php } ?>"
+		],
+		"description": "Expand 'if' into IF conditional"
+	},
+	// FOR Conditional
+	"FOR Conditional": {
+		"prefix": "for",
+		"body": [
+			"<?php for (\\$=1; \\$i<=${1:to}; \\$i++) { ?>",
+			"$0",
+			"<?php } ?>"
+		],
+		"description": "Expand 'for' into FOR loop"
+	},
+	// FOREACH Conditional
+	"FOREACH Conditional": {
+		"prefix": "foreach",
+		"body": [
+			"<?php foreach (${1:\\$data} as ${2:\\$key} => ${3:\\$value}) { ?>",
+			"$0",
+			"<?php } ?>"
+		],
+		"description": "Expand 'foreach' into FOREACH loop"
+	},
+	// EZOOM site_url
+	"EZOOM SITE_URL Conditional": {
+		"prefix": "site_url",
+		"body": [
+			"<?php echo site_url($1); ?>"
+		],
+		"description": "EZOOM site_url"
+	},
+	// EZOOM site_url
+	"EZOOM BASE_IMG Conditional": {
+		"prefix": "base_img",
+		"body": [
+			"<?php echo base_img($1); ?>"
+		],
+		"description": "EZOOM base_img"
+	},
+	// EZOOM site_url
+	"EZOOM BASE_URL Conditional": {
+		"prefix": "base_url",
+		"body": [
+			"<?php echo base_url($1); ?>"
+		],
+		"description": "EZOOM base_url"
+	},
+	"EZOOM RESIZE_CROP Conditional": {
+		"prefix": "resize_crop",
+		"body": [
+			"<?php echo base_url('image/resize_crop?w=$1&h=$2&q=100&src=$3'); ?>"
+		],
+		"description": "EZOOM resize_crop"
+	},
+	"EZOOM RESIZE_CANVAS Conditional": {
+		"prefix": "resize_canvas",
+		"body": [
+			"<?php echo base_url('image/resize_canvas?w=$1&h=$2&q=100&src=$3'); ?>"
+		],
+		"description": "EZOOM resize_canvas"
+	},
+	"EZOOM T_ Conditional": {
+		"prefix": "t_",
+		"body": [
+			"<?php echo T_('$1'); ?>"
+		],
+		"description": "EZOOM resize_canvas"
+	},
+	"EZOOM LAZYLOAD Conditional": {
+		"prefix": "lazyload",
+		"body": [
+			"<?php",
+			"	echo lazyload(array(",
+				"		'src' 		=> base_url('$1'),",
+				"		'alt' 		=> '$2'",
+				"		'class' 	=> 'lazyload'",
+			"	));",
+			"?>"
+		],
+		"description": "EZOOM lazyload"
+	}
+}

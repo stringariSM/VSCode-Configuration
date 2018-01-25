@@ -1,0 +1,114 @@
+[
+	{
+		"key": "ctrl+shift+space",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "<?php ${1:}$SELECTION ?>"
+		}
+	},
+	{
+		"key": "ctrl+alt+t",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "T_(${1:}$SELECTION)"
+		}
+	},
+	{
+		"key": "ctrl+t",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "<?php echo T_('${1:}$SELECTION'); ?>"
+		}
+	},
+	{
+		"key": "ctrl+shift+l",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "console.log(${1:}$SELECTION);${0}"
+		}
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "echo '<pre>';die(var_dump(${1:}$SELECTION));${0}"
+		}
+	},
+	{
+		"key": "ctrl+shift+alt+v",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "echo '<pre>';var_dump(${1:}$SELECTION);echo '</pre>';${0}"
+		}
+	},
+	{
+		"key": "ctrl+shift+q",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "echo '<pre>';die(var_dump(\\$this->db->last_query()));${0}"
+		}
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "if (isset(${1:}$SELECTION) && is_array(${1:}$SELECTION) && count(${1:}$SELECTION)) {"
+		}
+	},
+	{
+		"key": "ctrl+e",
+		"command": "toggle_side_bar"
+	},
+	{
+		"key": "ctrl+alt+p",
+		"command": "prompt_select_workspace"
+	},
+	{
+		"key": "ctrl+alt+m",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "@media (max-width: ${1:}$SELECTION)${0}"
+		}
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"snippet": "isset(${1:}$SELECTION) && !empty(${1:}$SELECTION) ? ${1:}$SELECTION : NULL;"
+		}
+	},
+	{
+		"key": "shift+space",
+		"command": "editor.emmet.action.expandAbbreviation",
+		"when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+	},
+	{
+		"key": "tab",
+		"command": "-editor.emmet.action.expandAbbreviation",
+		"when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+	},
+	{
+		"key": "shift+space",
+		"command": "emmet.expandAbbreviation"
+	},
+	{
+		"key": "ctrl+shift+alt+d",
+		"command": "editor.emmet.action.wrapWithAbbreviation"
+	},
+	{
+		"key": "ctrl+alt+d",
+		"command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+k ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+shift+oem_3",
+		"command": "workbench.action.terminal.focus"
+	}
+]
