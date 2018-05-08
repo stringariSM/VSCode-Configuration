@@ -45,52 +45,52 @@
 		],
 		"description": "Expand 'foreach' into FOREACH loop"
 	},
-	// EZOOM site_url
-	"EZOOM SITE_URL Conditional": {
+	// CI site_url
+	"CI SITE_URL Conditional": {
 		"prefix": "site_url",
 		"body": [
 			"<?php echo site_url($1); ?>"
 		],
-		"description": "EZOOM site_url"
+		"description": "CI site_url"
 	},
-	// EZOOM site_url
-	"EZOOM BASE_IMG Conditional": {
+	// CI site_url
+	"CI BASE_IMG Conditional": {
 		"prefix": "base_img",
 		"body": [
 			"<?php echo base_img($1); ?>"
 		],
-		"description": "EZOOM base_img"
+		"description": "CI base_img"
 	},
-	// EZOOM site_url
-	"EZOOM BASE_URL Conditional": {
+	// CI site_url
+	"CI BASE_URL Conditional": {
 		"prefix": "base_url",
 		"body": [
 			"<?php echo base_url($1); ?>"
 		],
-		"description": "EZOOM base_url"
+		"description": "CI base_url"
 	},
-	"EZOOM RESIZE_CROP Conditional": {
+	"CI RESIZE_CROP Conditional": {
 		"prefix": "resize_crop",
 		"body": [
 			"<?php echo base_url('image/resize_crop?w=$1&h=$2&q=100&src=$3'); ?>"
 		],
-		"description": "EZOOM resize_crop"
+		"description": "CI resize_crop"
 	},
-	"EZOOM RESIZE_CANVAS Conditional": {
+	"CI RESIZE_CANVAS Conditional": {
 		"prefix": "resize_canvas",
 		"body": [
 			"<?php echo base_url('image/resize_canvas?w=$1&h=$2&q=100&src=$3'); ?>"
 		],
-		"description": "EZOOM resize_canvas"
+		"description": "CI resize_canvas"
 	},
-	"EZOOM T_ Conditional": {
+	"CI T_ Conditional": {
 		"prefix": "t_",
 		"body": [
 			"<?php echo T_('$1'); ?>"
 		],
-		"description": "EZOOM resize_canvas"
+		"description": "CI resize_canvas"
 	},
-	"EZOOM LAZYLOAD Conditional": {
+	"CI LAZYLOAD Conditional": {
 		"prefix": "lazyload",
 		"body": [
 			"<?php",
@@ -101,6 +101,6 @@
 			"	));",
 			"?>"
 		],
-		"description": "EZOOM lazyload"
+		"description": "CI lazyload"
 	}
 }
