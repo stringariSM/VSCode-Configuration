@@ -37,59 +37,59 @@
 		],
 		"description": "Expand 'foreach' into FOREACH loop"
 	},
-	// EZOOM site_url
-	"EZOOM SITE_URL Conditional": {
+	// CI site_url
+	"CI SITE_URL Conditional": {
 		"prefix": "site_url",
 		"body": [
 			"echo site_url($1);"
 		],
-		"description": "EZOOM site_url"
+		"description": "CI site_url"
 	},
-	// EZOOM site_url
-	"EZOOM BASE_IMG Conditional": {
+	// CI site_url
+	"CI BASE_IMG Conditional": {
 		"prefix": "base_img",
 		"body": [
 			"echo base_img($1);"
 		],
-		"description": "EZOOM base_img"
+		"description": "CI base_img"
 	},
-	// EZOOM site_url
-	"EZOOM BASE_URL Conditional": {
+	// CI site_url
+	"CI BASE_URL Conditional": {
 		"prefix": "base_url",
 		"body": [
 			"echo base_url($1);"
 		],
-		"description": "EZOOM base_url"
+		"description": "CI base_url"
 	},
-	"EZOOM RESIZE_CROP Conditional": {
+	"CI RESIZE_CROP Conditional": {
 		"prefix": "resize_crop",
 		"body": [
 			"echo base_url('image/resize_crop?w=$1&h=$2&q=100&src=$3');"
 		],
-		"description": "EZOOM resize_crop"
+		"description": "CI resize_crop"
 	},
-	"EZOOM RESIZE_CANVAS Conditional": {
+	"CI RESIZE_CANVAS Conditional": {
 		"prefix": "resize_canvas",
 		"body": [
 			"echo base_url('image/resize_canvas?w=$1&h=$2&q=100&src=$3');"
 		],
-		"description": "EZOOM resize_canvas"
+		"description": "CI resize_canvas"
 	},
-	"EZOOM ISSET Conditional": {
+	"CI ISSET Conditional": {
 		"prefix": "isset",
 		"body": [
 			"isset(${1:\\$data}) && !empty(${2:\\$data}) ? ${3:\\$data} : NULL;"
 		],
-		"description": "EZOOM isset or NULL"
+		"description": "CI isset or NULL"
 	},
-	"EZOOM T_ Conditional": {
+	"CI T_ Conditional": {
 		"prefix": "t_",
 		"body": [
 			"echo T_('$1');"
 		],
-		"description": "EZOOM resize_canvas"
+		"description": "CI resize_canvas"
 	},
-	"EZOOM LAZYLOAD Conditional": {
+	"CI LAZYLOAD Conditional": {
 		"prefix": "lazyload",
 		"body": [
 			"echo lazyload(array(",
@@ -98,50 +98,50 @@
 				"	'class' 	=> 'lazyload'",
 			"));"
 		],
-		"description": "EZOOM lazyload"
+		"description": "CI lazyload"
 	},
-	"EZOOM JSON RESPONSE Conditional": {
+	"CI JSON RESPONSE Conditional": {
 		"prefix": "response",
 		"body": [
 			"\\$this->output->set_content_type('application/json')",
             "     		->set_output(json_encode(${1:\\$data}));"
 		],
-		"description": "EZOOM JSON Response"
+		"description": "CI JSON Response"
 	},
-	"EZOOM IS_AJAX Conditional": {
+	"CI IS_AJAX Conditional": {
 		"prefix": "isajax",
 		"body": [
 			"if (!\\$this->input->is_ajax_request())",
             "	show_404();"
 		],
-		"description": "EZOOM is_ajax_request 404"
+		"description": "CI is_ajax_request 404"
 	},
-	"EZOOM CI LOAD MODEL Conditional": {
+	"CI CI LOAD MODEL Conditional": {
 		"prefix": "model",
 		"body": [
 			"\\$this->load->model('$1');"
 		],
-		"description": "EZOOM load CI model"
+		"description": "CI load CI model"
 	},
-	"EZOOM CI LOAD LIBRARY Conditional": {
+	"CI CI LOAD LIBRARY Conditional": {
 		"prefix": "library",
 		"body": [
 			"\\$this->load->library('$1');"
 		],
-		"description": "EZOOM load CI library"
+		"description": "CI load CI library"
 	},
-	"EZOOM CI LOAD HELPER Conditional": {
+	"CI CI LOAD HELPER Conditional": {
 		"prefix": "helper",
 		"body": [
 			"\\$this->load->helper('$1');"
 		],
-		"description": "EZOOM load CI helper"
+		"description": "CI load CI helper"
 	},
-	"EZOOM CI LOAD VIEW Conditional": {
+	"CI CI LOAD VIEW Conditional": {
 		"prefix": "view",
 		"body": [
 			"\\$this->load->view('$1', ${2:array()}, ${3:TRUE});"
 		],
-		"description": "EZOOM load CI model"
+		"description": "CI load CI model"
 	}
 }
