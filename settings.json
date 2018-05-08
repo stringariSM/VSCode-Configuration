@@ -1,16 +1,20 @@
 {
-	"window.zoomLevel": 0,
+    "window.zoomLevel": 0,
 	"sublimeTextKeymap.promptV3Features": true,
-	"editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "on",
 	"editor.snippetSuggestions": "top",
 	"editor.formatOnPaste": true,
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": true,
 	"editor.tabSize": 4,
     "editor.lineHeight": 21,
+    "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-	"files.trimTrailingWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "html.format.wrapLineLength": 50,
+    "html.format.wrapAttributes": "force",
 	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 	"workbench.startupEditor": "newUntitledFile",
 	"files.associations": {
@@ -25,7 +29,7 @@
 	"php.suggest.basic": false,
 	"php-docblocker.extra": [
 		[
-			"@author Gabriel Stringari <gabriel.stringari@grupoezoom.com.br>"
+			"@author Gabriel Stringari <gabriel@gabrielstringari.com>"
 		]
 	],
 	"php-docblocker.gap": false,
@@ -41,15 +45,29 @@
 	"auto-rename-tag.activationOnLanguage": [
 		"*"
 	],
-	"php.executablePath": "C:\\xampp\\php7\\php.exe",
-	"php.validate.executablePath": "C:\\xampp\\php7\\php.exe",
-	"php.validate.run": "onSave",
+	"php.executablePath": "C:\\wamp64\\bin\\php\\php7.0.23\\php.exe",
+	"php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.0.23\\php.exe",
+	"php.validate.run": "onType",
     "workbench.activityBar.visible": true,
     "git.enableSmartCommit": true,
     "workbench.colorCustomizations": {
         "statusBar.background": "#343434",
         "statusBar.noFolderBackground": "#212121",
-        "statusBar.debuggingBackground": "#263238"
+        "statusBar.debuggingBackground": "#263238",
     },
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "none",
+    "C_Cpp.intelliSenseEngine": "Default"
 }
