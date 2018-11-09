@@ -34,19 +34,12 @@
 	],
 	"php-docblocker.gap": false,
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.colorTheme": "Electron",
 	// Path of files that need parse. That is just for addition const support.
-	"CI.other": [
-		"codeigniter/core/Common.php"
-	],
-	// Path of CI's system folder.
-	"CI.system": "codeigniter",
 	"gulp.autoDetect": "on",
 	"auto-rename-tag.activationOnLanguage": [
 		"*"
 	],
-	"php.executablePath": "C:\\wamp64\\bin\\php\\php7.0.23\\php.exe",
-	"php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.0.23\\php.exe",
 	"php.validate.run": "onType",
     "workbench.activityBar.visible": true,
     "git.enableSmartCommit": true,
@@ -55,7 +48,6 @@
         "statusBar.noFolderBackground": "#212121",
         "statusBar.debuggingBackground": "#263238",
     },
-    "window.menuBarVisibility": "toggle",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -69,5 +61,5 @@
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "none",
-    "C_Cpp.intelliSenseEngine": "Default"
+    "git.autofetch": true
 }
