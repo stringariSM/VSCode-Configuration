@@ -1,6 +1,5 @@
 {
     "window.zoomLevel": 0,
-	"sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.wordWrap": "on",
 	"editor.snippetSuggestions": "top",
@@ -27,27 +26,11 @@
 		"strings": true
 	},
 	"php.suggest.basic": false,
-	"php-docblocker.extra": [
-		[
-			"@author Gabriel Stringari <gabriel@gabrielstringari.com>"
-		]
-	],
-	"php-docblocker.gap": false,
 	"workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Electron",
-	// Path of files that need parse. That is just for addition const support.
-	"gulp.autoDetect": "on",
-	"auto-rename-tag.activationOnLanguage": [
-		"*"
-	],
 	"php.validate.run": "onType",
     "workbench.activityBar.visible": true,
     "git.enableSmartCommit": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#343434",
-        "statusBar.noFolderBackground": "#212121",
-        "statusBar.debuggingBackground": "#263238",
-    },
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
