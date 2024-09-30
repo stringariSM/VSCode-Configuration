@@ -1,20 +1,17 @@
 {
-    "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "on",
 	"editor.snippetSuggestions": "top",
-	"editor.formatOnPaste": true,
+	"editor.formatOnPaste": false,
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": true,
 	"editor.tabSize": 4,
     "editor.lineHeight": 21,
-    "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
-    "html.format.wrapLineLength": 50,
-    "html.format.wrapAttributes": "force",
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // "html.format.wrapLineLength": 800,
+    // "html.format.wrapAttributes": "force",
+
 	"workbench.startupEditor": "newUntitledFile",
 	"files.associations": {
 		"*.tpl": "php"
@@ -24,13 +21,10 @@
 		"other": true,
 		"comments": false,
 		"strings": true
-	},
-	"php.suggest.basic": false,
+    },
 	"workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Electron",
-	"php.validate.run": "onType",
-    "workbench.activityBar.visible": true,
-    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "GitHub Dark",
+    "php.validate.run": "onType",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -44,5 +38,114 @@
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "none",
-    "git.autofetch": true
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "remote.SSH.remotePlatform": {
+        "131.108.103.120": "linux",
+        "192.168.100.44": "linux"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "json.maxItemsComputed": 500000,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\gabri\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\gabri\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.kubectl-path.mac": "/Users/fcode/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.mac": "/Users/fcode/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.helm-path.mac": "/Users/fcode/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.kubectl-path.linux": "/home/gabriel/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/home/gabriel/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path.linux": "/home/gabriel/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.crd-code-completion": "enabled",
+        "vscode-kubernetes.kubectl-path-mac": "/Users/gabrielstringari/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path-mac": "/Users/gabrielstringari/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.helm-path-mac": "/Users/gabrielstringari/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.minikube-show-information-expiration": "2024-09-25T00:38:21.652Z"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    // "editor.wordWrap": "on",
+    "cSpell.language": "en,pt,pt_BR",
+    "cSpell.userWords": [
+        "CURLOPT",
+        "FCODE",
+        "FOLLOWLOCATION",
+        "MAXREDIRS",
+        "RETURNTRANSFER"
+    ],
+    "sonarlint.rules": {
+        "Web:S1827": {
+            "level": "off"
+        },
+        "php:S103": {
+            "level": "off"
+        }
+    },
+    "liveshare.audio.startCallOnShare": true,
+    "git.autofetch": true,
+    "yaml.schemas": {
+        "file:///home/gabriel/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "editor.linkedEditing": true,
+    "sonarlint.pathToNodeExecutable": "/home/gabriel/.nvm/versions/node/v19.3.0/bin/node",
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "intelephense.environment.phpVersion": "7.4.1",
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "chatgpt.lang": "en",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "github.copilot.advanced": {},
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.replaceTagsWhenPull": true,
 }
